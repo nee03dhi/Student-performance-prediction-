@@ -1,0 +1,19 @@
+{
+  "baseline_linear_regression": {
+    "mae": 6.067,
+    "rmse": 8.288,
+    "r2": 0.701
+  },
+  "gradient_boosting_tuned": {
+    "mae": 5.591,
+    "rmse": 7.833,
+    "r2": 0.733
+  },
+  "best_params": {
+    "model__learning_rate": 0.02,
+    "model__max_depth": 5,
+    "model__n_estimators": 500,
+    "model__subsample": 0.8
+  },
+  "cv_mae": 5.779
+}

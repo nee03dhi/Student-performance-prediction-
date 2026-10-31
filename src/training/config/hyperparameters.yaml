@@ -1,0 +1,7 @@
+gradient_boosting:
+  cv: 5
+  param_grid:
+    model__n_estimators: [300, 500]
+    model__learning_rate: [0.02, 0.05]
+    model__max_depth: [4, 5]
+    model__subsample: [0.8]

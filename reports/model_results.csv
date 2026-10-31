@@ -1,0 +1,4 @@
+Model,MAE,RMSE,R2
+Linear Regression (baseline),6.067,8.288,0.701
+Gradient Boosting (default),5.739,7.908,0.728
+Gradient Boosting (tuned),5.578,7.812,0.734
